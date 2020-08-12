@@ -8,7 +8,7 @@ derive trends and common topics within these companies. The transcript dataset c
 companies like Cisco, Intel, IBM, and Verizon transcripts, from 2002 through 2017.
 
 ## Notebooks
-1.  generateTables.ipynb
+### 1. generateTables.ipynb
 #### Standard Text Analytic Data Model (STADM) and NLP Annotated STADM
 The following 3 normalized tables were generated to represent the transcripts.
 - __LIB.csv:__ The LIB table contains metadata information about all the transcripts. This file includes
@@ -22,7 +22,7 @@ the NLTK pos_tag method.
 includes a count of each term string, and if a term string is a number or a stop word. The stems
 and POS tag is also present in this table.
 
-### analysis.ipynb
+### 2. analysis.ipynb
 #### STADM with Vector Space Models
 A TFIDF (term frequency-inverse document frequency) representation of the TOKEN data is
 created using a user-defined function (UDF) and saved as TFIDF.csv. The UDF is responsible for

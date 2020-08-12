@@ -8,7 +8,7 @@ derive trends and common topics within these companies. The transcript dataset c
 companies like Cisco, Intel, IBM, and Verizon transcripts, from 2002 through 2017.
 
 ## Notebooks
-### generateTables.ipynb
+1.  generateTables.ipynb
 #### Standard Text Analytic Data Model (STADM) and NLP Annotated STADM
 The following 3 normalized tables were generated to represent the transcripts.
 - __LIB.csv:__ The LIB table contains metadata information about all the transcripts. This file includes

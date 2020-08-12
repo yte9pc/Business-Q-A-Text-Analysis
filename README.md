@@ -9,6 +9,7 @@ companies like Cisco, Intel, IBM, and Verizon transcripts, from 2002 through 201
 
 ## Notebooks
 ### generateTables.ipynb
+#### Standard Text Analytic Data Model (STADM) and NLP Annotated STADM
 The following 3 normalized tables were generated to represent the transcripts.
 - __LIB.csv:__ The LIB table contains metadata information about all the transcripts. This file includes
 file_id, file_name, company, title, date, and year.

@@ -25,7 +25,7 @@ and POS tag is also present in this table.
 ### 2. analysis.ipynb
 #### STADM with Vector Space Models
 A TFIDF (term frequency-inverse document frequency) representation of the TOKEN data is
-created using a user-defined function (UDF) and saved as TFIDF.csv. The UDF is responsible for
+created using a user-defined function (UDF) and saved as __TFIDF.csv__. The UDF is responsible for
 creating the bag-of-words, TF, DF, IDF, and returning a TFIDF matrix. The table shares the same
 term_id, term_str, and POS tag as the VOCAB table. Also, tfidf_sum_transcript is calculated for
 each term.
